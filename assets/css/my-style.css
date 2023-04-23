@@ -21,6 +21,9 @@
     color:#fff;
     background-color: #ff8b38;
 }
+.icon-mobile-menu{
+    display: none;
+}
 .button a.background-color-orange:hover{
     background-color: #fff;
     color: #ff8b38 !important;

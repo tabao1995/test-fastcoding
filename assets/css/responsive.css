@@ -91,6 +91,12 @@
     .sublist-container{
         flex-direction: column-reverse;
     }
+    .stand-picture-content {
+        margin-right: 0%;
+    }
+    .sublist-content{
+        margin-left: 0%;
+    }
 
 }
 @media screen and (max-width:768px) {

@@ -28,6 +28,9 @@ jQuery(document).ready(function($) {
             jQuery(".icon-mobile-menu").addClass("open")
         }
     })
+    jQuery("sublist-container").hover( function(){
+        jQuery(this).find(".image-section img ").addClass("slider-left")
+    })
 })
 jQuery(window).on("resize", function() {
     if(jQuery(window).width() < 1024){

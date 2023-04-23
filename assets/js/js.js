@@ -13,6 +13,21 @@ jQuery(document).ready(function($) {
     if(jQuery(window).width() < 1024){
         jQuery(".banner-second-section ").appendTo(".banner-form-mobile .width-80")
     }
+    jQuery(".icon-mobile-menu").click(function(){
+        if($(".icon-mobile-menu").hasClass("open")) {
+            jQuery(".mobile-menu").addClass("close");
+            jQuery(".icon-mobile-menu").removeClass("open")
+            setTimeout( () => {
+                jQuery(".mobile-menu").removeClass("open")
+            }, 500
+
+            )
+        } else{
+            jQuery(".mobile-menu").removeClass("close")
+            jQuery(".mobile-menu").addClass("open");
+            jQuery(".icon-mobile-menu").addClass("open")
+        }
+    })
 })
 jQuery(window).on("resize", function() {
     if(jQuery(window).width() < 1024){

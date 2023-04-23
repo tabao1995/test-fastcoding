@@ -26,7 +26,7 @@ a {
     width: 100%;
 }
 .white-text{
-    color:#fff
+    color: #fff!important;
 }
 .width-80{
     width: 80%;
@@ -114,18 +114,31 @@ a {
 }
 .button{
     margin: 13px 0 ;
-    display: inline;
-    
-    
+    display: inline;   
 }
+
 ::placeholder{
     color:#bdbdbd    ;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    margin: -2px;
+    border:2px solid #ff8b38!important;
+    color: #ff8b38!important;
+    background-color: #fff!important;
 }
 .button a{
     padding:13px 32px;
     border:2px solid #fff;
     font-family: 'opensans',sans-serif;
     font-weight: 500;
+    border-radius:4px
+}
+.button input{
+    padding:15px 24px !important; 
+    border-radius:4px
 }
 .background-color-orange{
     background-color:#ff8b38 ;

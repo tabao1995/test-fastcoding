@@ -1,13 +1,35 @@
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
 .header-menu {
     justify-content: end;
     display: flex;
     align-items: center;
+
 }
 .header-menu ul li a {
     color: rgba(255, 255, 255, 0.69)    ;
     font-size:14px;
     text-decoration: none;
     padding: 20px;
+}
+.header ul li a:hover{
+    color:#fff;
+    background-color: #ff8b38;
+}
+.button a.background-color-orange:hover{
+    background-color: #fff;
+    color: #ff8b38 !important;
+}
+.button a.white-text:hover{
+    color: #ff8b38!important;
+}
+.content {
+    margin-top: 77px;
 }
 .banner-first {
     margin-right: 60px;

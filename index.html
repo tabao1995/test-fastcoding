@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Testing-FastCoding</title>
 </head>
 <body>
     <div class="header fullsize-container background-color-black">
@@ -23,9 +23,8 @@
                     <li class="menu-items"><a href="">Contact </a></li>
                 </ul>
                 <i class="fas fa-bars icon-mobile-menu"></i>
-               
             </div>
-            <div class="mobile-menu">
+            <div class="mobile-menu-section">
                 <ul class="mobile-menu">
                     <li class="menu-items"><a href="">Features</a></li>
                     <li class="menu-items"><a href="">About </a></li>
@@ -131,7 +130,7 @@
         </div>
         <div class="fullsize-container background-color-white ">
         </div>
-            <div class="width-80 normal-section flex row">
+            <div class="width-80 normal-section sublist-container flex row">
                 <div class=" width-6 image-section">
                     <img src="./assets/image/image_left_sub_list_u260.png" alt="" srcset="">
                 </div>
@@ -243,14 +242,19 @@
                 <p class="gray-text text-center">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <form action="" method="post" class="contact-us-form flex row">
-                    <div class="width-6 flex column">
-                        <input placeholder="Name" type="text" name="contact-us-name" id="contact-us-name">
-                        <input placeholder="Mail" type="mail" name="contact-us-mail" id="contact-us-mail">
-                        <input placeholder="Subject" type="text" name="contact-us-subject" id="contact-us-subject">
+                <form action="" method="post" class="contact-us-form flex column">
+                    <div class="flex row">
+                        <div class="width-6 flex column">
+                            <input placeholder="Name" type="text" name="contact-us-name" id="contact-us-name">
+                            <input placeholder="Mail" type="mail" name="contact-us-mail" id="contact-us-mail">
+                            <input placeholder="Subject" type="text" name="contact-us-subject" id="contact-us-subject">
+                        </div>
+                        <div class="width-6">
+                            <textarea placeholder="Message" name="" id="contact-us-messager" ></textarea>
+                        </div>
                     </div>
-                    <div class="width-6">
-                        <textarea placeholder="Message" name="" id="contact-us-messager" ></textarea>
+                    <div class="button text-center">
+                        <input type="submit" value="Send Message" class="white-text background-color-orange">
                     </div>
                 </form>
             </div>

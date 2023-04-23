@@ -17,9 +17,13 @@
    {
         width: 100%;
    }
+   .header-menu.width-10{
+    width: 70%;
+   }
    .destop-menu{
     display: none;
     }
+
     .mobile-menu{
         display: flex;
         flex-direction: column;
